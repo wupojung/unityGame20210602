@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InMenuMgr : MonoBehaviour
@@ -21,6 +22,6 @@ public class InMenuMgr : MonoBehaviour
 
     void OnClick()
     {
-        Debug.Log("aaaa");
+        SceneManager.LoadScene("InGame");
     }
 }
